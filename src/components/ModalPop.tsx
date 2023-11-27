@@ -20,7 +20,7 @@ const ModalPop = ({CvC}:{CvC: MyFormValues}) => {
   return (
     <>
       <Button type="primary" onClick={showModal}>
-        Open Modal
+       Submit
       </Button>
       <Modal
         title="Basic Modal"
