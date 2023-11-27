@@ -23,7 +23,7 @@ const ModalPop = ({CvC}:{CvC: MyFormValues}) => {
        Submit
       </Button>
       <Modal
-        title="Basic Modal"
+        title="Preview PDF"
         width={'1500'}
         bodyStyle={{height: '80vh'}}
         open={isModalOpen}
