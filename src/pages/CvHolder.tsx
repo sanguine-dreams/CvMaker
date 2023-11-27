@@ -55,7 +55,7 @@ function CV() {
                         name="work"
                         render={(arrayHelpers) => (
                           <div>
-                            {values.work.map((reference, index) => (
+                            {values.work.map((_, index) => (
                               <div key={index}>
                                 <Work index={index} />
                                 <button
@@ -90,7 +90,7 @@ function CV() {
                         name="edu"
                         render={(arrayHelpers) => (
                           <div>
-                            {values.edu.map((reference, index) => (
+                            {values.edu.map((_, index) => (
                               <div key={index}>
                                 <Edu index={index} />
                                 <Button
@@ -125,7 +125,7 @@ function CV() {
                         name="skills"
                         render={(arrayHelpers) => (
                           <div>
-                            {values.skills.map((reference, index) => (
+                            {values.skills.map((_, index) => (
                               <div key={index}>
                                 <Skills index={index} />
                                 <Button
@@ -160,7 +160,7 @@ function CV() {
                         name="references"
                         render={(arrayHelpers) => (
                           <div>
-                            {values.references.map((reference, index) => (
+                            {values.references.map((_, index) => (
                               <div  key={index}>
                                 
                                 <References index={index} />
